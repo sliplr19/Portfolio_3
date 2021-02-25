@@ -289,3 +289,72 @@ plotnScree(nS)
 
 ###Screeplot suggests 2 factors. 
 
+EATQ_EFA_2_rem <- fa(r=EATQ.corr.rem$correlations, 
+                 n.obs=6572, 
+                 nfactor=2, 
+                 cor="poly", 
+                 fm="mle", 
+                 rotate = "oblimin")
+
+###Does not fit: 3 factor
+
+EATQ_EFA_3_rem <- fa(r=EATQ.corr.rem$correlations, 
+                     n.obs=6572, 
+                     nfactor=3, 
+                     cor="poly", 
+                     fm="mle", 
+                     rotate = "oblimin")
+
+###Does not fit: 4 factor
+
+EATQ_EFA_4_rem <- fa(r=EATQ.corr.rem$correlations, 
+                     n.obs=6572, 
+                     nfactor=4, 
+                     cor="poly", 
+                     fm="mle", 
+                     rotate = "oblimin")
+
+###RMSEA fit, but TLI does not: 5 factors
+
+EATQ_EFA_5_rem <- fa(r=EATQ.corr.rem$correlations, 
+                     n.obs=6572, 
+                     nfactor=5, 
+                     cor="poly", 
+                     fm="mle", 
+                     rotate = "oblimin")
+
+###RMSEA fit, but TLI does not: 6 factors
+
+EATQ_EFA_6_rem <- fa(r=EATQ.corr.rem$correlations, 
+                     n.obs=6572, 
+                     nfactor=6, 
+                     cor="poly", 
+                     fm="mle", 
+                     rotate = "oblimin")
+
+###RMSEA fit, but TLI does not: 7 factors
+
+EATQ_EFA_7_rem <- fa(r=EATQ.corr.rem$correlations, 
+                     n.obs=6572, 
+                     nfactor=7, 
+                     cor="poly", 
+                     fm="mle", 
+                     rotate = "oblimin")
+
+###RMSEA fit, but TLI does not: 8 factors
+
+EATQ_EFA_8_rem <- fa(r=EATQ.corr.rem$correlations, 
+                     n.obs=6572, 
+                     nfactor=8, 
+                     cor="poly", 
+                     fm="mle", 
+                     rotate = "oblimin")
+
+###RMSEA fit, but TLI does not: 9 factors
+
+EATQ_EFA_9_rem <- fa(r=EATQ.corr.rem$correlations, 
+                     n.obs=6572, 
+                     nfactor=9, 
+                     cor="poly", 
+                     fm="mle", 
+                     rotate = "oblimin")
