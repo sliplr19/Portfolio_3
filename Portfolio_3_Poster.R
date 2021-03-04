@@ -358,3 +358,426 @@ EATQ_EFA_9_rem <- fa(r=EATQ.corr.rem$correlations,
                      cor="poly", 
                      fm="mle", 
                      rotate = "oblimin")
+
+###RMSEA fit, but TLI does not: 11 factors
+
+EATQ_EFA_11_rem <- fa(r=EATQ.corr.rem$correlations, 
+                     n.obs=6572, 
+                     nfactor=11, 
+                     cor="poly", 
+                     fm="mle", 
+                     rotate = "oblimin")
+
+###RMSEA fit, but TLI does not: 12 factors
+
+EATQ_EFA_12_rem <- fa(r=EATQ.corr.rem$correlations, 
+                      n.obs=6572, 
+                      nfactor=12, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###RMSEA fit, but TLI does not: 13 factors
+
+EATQ_EFA_13_rem <- fa(r=EATQ.corr.rem$correlations, 
+                      n.obs=6572, 
+                      nfactor=13, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###RMSEA fit, but TLI does not: 14 factors
+
+EATQ_EFA_14_rem <- fa(r=EATQ.corr.rem$correlations, 
+                      n.obs=6572, 
+                      nfactor=14, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###RMSEA fit, but TLI does not: 15 factors
+
+EATQ_EFA_15_rem <- fa(r=EATQ.corr.rem$correlations, 
+                      n.obs=6572, 
+                      nfactor=15, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###RMSEA fit, but TLI does not: 16 factors
+
+EATQ_EFA_16_rem <- fa(r=EATQ.corr.rem$correlations, 
+                      n.obs=6572, 
+                      nfactor=16, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###RMSEA fit, but TLI does not: 17 factors
+
+EATQ_EFA_17_rem <- fa(r=EATQ.corr.rem$correlations, 
+                      n.obs=6572, 
+                      nfactor=17, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###RMSEA fit, but TLI does not: 18 factors
+
+EATQ_EFA_18_rem <- fa(r=EATQ.corr.rem$correlations, 
+                      n.obs=6572, 
+                      nfactor=18, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###RMSEA fit, but TLI does not: 19 factors
+
+EATQ_EFA_19_rem <- fa(r=EATQ.corr.rem$correlations, 
+                      n.obs=6572, 
+                      nfactor=19, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###RMSEA fit, but TLI does not: 20 factors
+
+EATQ_EFA_20_rem <- fa(r=EATQ.corr.rem$correlations, 
+                      n.obs=6572, 
+                      nfactor=20, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###I couldn't get TLI above .9, so I'm going to go back to the 
+###original data and try again
+
+###RMSEA fit, TLI not: try 10 
+
+
+EATQ_EFA_10 <- fa(r=EATQ.corr$correlations, 
+                 n.obs=6572, 
+                 nfactor=10, 
+                 cor="poly", 
+                 fm="mle", 
+                 rotate = "oblimin")
+
+###RMSEA fit, TLI not: try 11 
+
+
+EATQ_EFA_11 <- fa(r=EATQ.corr$correlations, 
+                  n.obs=6572, 
+                  nfactor=11, 
+                  cor="poly", 
+                  fm="mle", 
+                  rotate = "oblimin")
+
+###RMSEA fit, TLI not: try 12 
+
+
+EATQ_EFA_12 <- fa(r=EATQ.corr$correlations, 
+                  n.obs=6572, 
+                  nfactor=12, 
+                  cor="poly", 
+                  fm="mle", 
+                  rotate = "oblimin")
+
+###RMSEA fit, TLI not: try 13 
+
+
+EATQ_EFA_13 <- fa(r=EATQ.corr$correlations, 
+                  n.obs=6572, 
+                  nfactor=13, 
+                  cor="poly", 
+                  fm="mle", 
+                  rotate = "oblimin")
+
+###RMSEA fit, TLI not: try 14 
+
+
+EATQ_EFA_14 <- fa(r=EATQ.corr$correlations, 
+                  n.obs=6572, 
+                  nfactor=14, 
+                  cor="poly", 
+                  fm="mle", 
+                  rotate = "oblimin")
+
+###RMSEA fit, TLI not: try 15 
+
+
+EATQ_EFA_15 <- fa(r=EATQ.corr$correlations, 
+                  n.obs=6572, 
+                  nfactor=15, 
+                  cor="poly", 
+                  fm="mle", 
+                  rotate = "oblimin")
+
+###RMSEA fit, TLI not: try 16 
+
+
+EATQ_EFA_16 <- fa(r=EATQ.corr$correlations, 
+                  n.obs=6572, 
+                  nfactor=16, 
+                  cor="poly", 
+                  fm="mle", 
+                  rotate = "oblimin")
+
+###RMSEA fit, TLI not: try 17
+
+
+EATQ_EFA_17 <- fa(r=EATQ.corr$correlations, 
+                  n.obs=6572, 
+                  nfactor=17, 
+                  cor="poly", 
+                  fm="mle", 
+                  rotate = "oblimin")
+
+###RMSEA fit, TLI not: try 18
+
+
+EATQ_EFA_18 <- fa(r=EATQ.corr$correlations, 
+                  n.obs=6572, 
+                  nfactor=18, 
+                  cor="poly", 
+                  fm="mle", 
+                  rotate = "oblimin")
+
+###RMSEA fit, TLI not: try 19
+
+
+EATQ_EFA_19 <- fa(r=EATQ.corr$correlations, 
+                  n.obs=6572, 
+                  nfactor=19, 
+                  cor="poly", 
+                  fm="mle", 
+                  rotate = "oblimin")
+
+###RMSEA fit, TLI not: try 20
+
+
+EATQ_EFA_20 <- fa(r=EATQ.corr$correlations, 
+                  n.obs=6572, 
+                  nfactor=20, 
+                  cor="poly", 
+                  fm="mle", 
+                  rotate = "oblimin")
+
+##We're going to try this one last time, this time removing a 
+##different set of items.
+
+
+EATQ_remove_2 <- subset(EATQ_complete, select = -c(tbl,del,
+                                                   trn, opn,
+                                                   car, shr, 
+                                                   bfr, con,
+                                                   rgt, tme,
+                                                   rde, any,
+                                                   dis, hug,
+                                                   blm, sad,
+                                                   wor, hrd,
+                                                   rce, foc,
+                                                   eng, crt,
+                                                   cls)) 
+
+#Finding correlations: EATQ
+EATQ.corr.2 <- polycor::hetcor(EATQ_remove_2)
+
+##Finding number of factors for EATQ data
+ev <- eigen(EATQ.corr.2$correlations) # get eigenvalues
+ap <- parallel(subject=nrow(EATQ.corr.2$correlations),var=ncol(EATQ.corr.2$correlations),
+               rep=100,cent=.05)
+nS <- nScree(x=ev$values, aparallel=ap$eigen$qevpea)
+plotnScree(nS)
+
+###Scree plot suggest 2 factors
+
+
+EATQ_EFA_two_2 <- fa(r=EATQ.corr$correlations, 
+                  n.obs=6572, 
+                  nfactor=2, 
+                  cor="poly", 
+                  fm="mle", 
+                  rotate = "oblimin")
+
+###Does not fit: try 3 factors
+
+
+EATQ_EFA_two_3 <- fa(r=EATQ.corr$correlations, 
+                     n.obs=6572, 
+                     nfactor=3, 
+                     cor="poly", 
+                     fm="mle", 
+                     rotate = "oblimin")
+
+###Does not fit: try 4 factors
+
+
+EATQ_EFA_two_4 <- fa(r=EATQ.corr$correlations, 
+                     n.obs=6572, 
+                     nfactor=4, 
+                     cor="poly", 
+                     fm="mle", 
+                     rotate = "oblimin")
+
+###Does not fit: try 5 factors
+
+
+EATQ_EFA_two_5 <- fa(r=EATQ.corr$correlations, 
+                     n.obs=6572, 
+                     nfactor=5, 
+                     cor="poly", 
+                     fm="mle", 
+                     rotate = "oblimin")
+
+###Does not fit: try 6 factors
+
+
+EATQ_EFA_two_6 <- fa(r=EATQ.corr$correlations, 
+                     n.obs=6572, 
+                     nfactor=6, 
+                     cor="poly", 
+                     fm="mle", 
+                     rotate = "oblimin")
+
+###RMSEA fit, TLI does not fit: try 7 factors
+
+
+EATQ_EFA_two_7 <- fa(r=EATQ.corr$correlations, 
+                     n.obs=6572, 
+                     nfactor=7, 
+                     cor="poly", 
+                     fm="mle", 
+                     rotate = "oblimin")
+
+###RMSEA fit, TLI does not fit: try 8 factors
+
+
+EATQ_EFA_two_8 <- fa(r=EATQ.corr$correlations, 
+                     n.obs=6572, 
+                     nfactor=8, 
+                     cor="poly", 
+                     fm="mle", 
+                     rotate = "oblimin")
+
+###RMSEA fit, TLI does not fit: try 9 factors
+
+
+EATQ_EFA_two_9 <- fa(r=EATQ.corr$correlations, 
+                     n.obs=6572, 
+                     nfactor=9, 
+                     cor="poly", 
+                     fm="mle", 
+                     rotate = "oblimin")
+
+###RMSEA fit, TLI does not fit: try 10 factors
+
+
+EATQ_EFA_two_10 <- fa(r=EATQ.corr$correlations, 
+                     n.obs=6572, 
+                     nfactor=10, 
+                     cor="poly", 
+                     fm="mle", 
+                     rotate = "oblimin")
+
+###RMSEA fit, TLI does not fit: try 11 factors
+
+
+EATQ_EFA_two_11 <- fa(r=EATQ.corr$correlations, 
+                      n.obs=6572, 
+                      nfactor=11, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###RMSEA fit, TLI does not fit: try 12 factors
+
+
+EATQ_EFA_two_12 <- fa(r=EATQ.corr$correlations, 
+                      n.obs=6572, 
+                      nfactor=12, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###RMSEA fit, TLI does not fit: try 13 factors
+
+
+EATQ_EFA_two_13 <- fa(r=EATQ.corr$correlations, 
+                      n.obs=6572, 
+                      nfactor=13, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###RMSEA fit, TLI does not fit: try 14 factors
+
+
+EATQ_EFA_two_14 <- fa(r=EATQ.corr$correlations, 
+                      n.obs=6572, 
+                      nfactor=14, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###RMSEA fit, TLI does not fit: try 15 factors
+
+
+EATQ_EFA_two_15 <- fa(r=EATQ.corr$correlations, 
+                      n.obs=6572, 
+                      nfactor=15, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###RMSEA fit, TLI does not fit: try 16 factors
+
+
+EATQ_EFA_two_16 <- fa(r=EATQ.corr$correlations, 
+                      n.obs=6572, 
+                      nfactor=16, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###RMSEA fit, TLI does not fit: try 17 factors
+
+
+EATQ_EFA_two_17 <- fa(r=EATQ.corr$correlations, 
+                      n.obs=6572, 
+                      nfactor=17, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###RMSEA fit, TLI does not fit: try 18 factors
+
+
+EATQ_EFA_two_18 <- fa(r=EATQ.corr$correlations, 
+                      n.obs=6572, 
+                      nfactor=18, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###RMSEA fit, TLI does not fit: try 19 factors
+
+
+EATQ_EFA_two_19 <- fa(r=EATQ.corr$correlations, 
+                      n.obs=6572, 
+                      nfactor=19, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###RMSEA fit, TLI does not fit: try 20 factors
+
+
+EATQ_EFA_two_20 <- fa(r=EATQ.corr$correlations, 
+                      n.obs=6572, 
+                      nfactor=20, 
+                      cor="poly", 
+                      fm="mle", 
+                      rotate = "oblimin")
+
+###Okay, that was unsuccessful. We're going to change tactics:
+###Maybe these variables are binary.
