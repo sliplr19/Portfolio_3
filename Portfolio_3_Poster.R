@@ -780,4 +780,27 @@ EATQ_EFA_two_20 <- fa(r=EATQ.corr$correlations,
                       rotate = "oblimin")
 
 ###Okay, that was unsuccessful. We're going to change tactics:
-###Maybe these variables are binary.
+###Maybe these variables are binary. Let's look at the distributions.
+
+EATQ_complete %>% 
+  select_if(is.numeric) %>%    
+  gather() %>%    
+  ggplot(aes(value))+ 
+  geom_density()+ 
+  facet_wrap(~colnames(EATQ_complete))
+
+##There seems to be a natural split between 3 and 4. Let's recode
+##the variables to be binary
+
+EATQ_binary <- EATQ_complete %>%
+  mutate_all(~ case_when(
+    . == 1 ~ 0, 
+    . == 2 ~ 0, 
+    . == 3 ~ 0, 
+    . == 4 ~ 1, 
+    . == 5 ~ 1))
+
+###Now I'm going to go over to MPlus to a a maximum
+###likelihood EFA. First, let me save this new data.
+
+write.csv(EATQ_binary, "G:\\My Drive\\ABCD\\EATQ_binary.csv")
