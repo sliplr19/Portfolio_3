@@ -951,3 +951,305 @@ OBLIMIN ROTATED LOADINGS (* significant at 5% level)
   #CLA           -0.064*        0.149*
   #ALN            0.098*       -0.370*
   #SMT            0.081*        0.003
+
+###Notice that some of the items don't load on anything.
+###I reran without those items and got 6 factors.                 
+                 
+#RMSEA (Root Mean Square Error Of Approximation)
+                 
+               
+                 #  Estimate                           0.023
+                 #90 Percent C.I.                    0.022  0.023
+                 #Probability RMSEA <= .05           1.000
+                 
+                # CFI/TLI
+                 
+                # CFI                                0.964
+                # TLI                                0.953                 
+                 
+              #   OBLIMIN ROTATED LOADINGS (* significant at 5% level)
+               #                   1             2             3             4             5
+                #               ________      ________      ________      ________      ________
+                # INS            0.720*        0.034         0.030        -0.102*       -0.052*
+                 #  FIN            0.101*        0.728*       -0.008        -0.035         0.048*
+                  # ENJ            0.202*       -0.025        -0.051*       -0.152*        0.190*
+                   #SKI            0.000         0.049*        0.694*       -0.112*        0.009
+                 #CRY            0.158*       -0.050*       -0.083*        0.164*       -0.012
+                 #ANG            0.650*       -0.021         0.032        -0.081*       -0.030
+                 #CAR           -0.196*        0.120*        0.087*        0.589*       -0.012
+                 #SHR           -0.043         0.107*        0.100*        0.494*       -0.160*
+                  # CON            0.083*        0.521*        0.004         0.156*        0.006
+                 #RGT           -0.276*        0.497*        0.071*        0.172*        0.020
+                 #TME            0.086*        0.047         0.187*        0.563*        0.011
+                 #RDE            0.687*        0.000         0.036        -0.141*       -0.013
+                 #ANY            0.534*        0.040*       -0.016         0.064*        0.023
+                 #IRR            0.620*       -0.013        -0.065*        0.160*        0.016
+                 #HUG           -0.043         0.061*        0.137*        0.520*       -0.083*
+                  # BLM            0.598*       -0.195*        0.023         0.060*       -0.010
+                 #SAD            0.197*       -0.086*        0.024        -0.003         0.079*
+                  # SOC            0.057*        0.061*       -0.029        -0.202*        0.671*
+                   #SEA            0.000        -0.035*        0.748*        0.135*       -0.008
+                 #TRV           -0.022         0.016         0.444*        0.371*       -0.036
+                 #WOR           -0.008         0.059*       -0.109*        0.375*        0.041*
+                  # PLC            0.598*       -0.088*       -0.002         0.261*        0.002
+                 #SLM            0.606*       -0.105*        0.008         0.121*        0.024
+                 #RCE            0.114*       -0.073*        0.530*        0.126*        0.003
+                 #FOC           -0.048*        0.636*        0.073*       -0.075*        0.037*
+                  # HW            -0.005         0.803*       -0.030         0.034        -0.031
+                # STT           -0.082*        0.901*        0.011        -0.004        -0.058*
+                #   PER            0.008         0.702*        0.032         0.105*       -0.033
+                # FUN            0.652*        0.042*        0.094*       -0.199*       -0.034
+                # CRT            0.599*        0.066*        0.060*       -0.197*        0.009
+                # CLS            0.175*        0.090*        0.171*        0.610*       -0.017
+                # SHY           -0.080*       -0.035*        0.021         0.128*        0.950*
+                 #  IEJ            0.569*       -0.095*       -0.023         0.399*        0.135*
+                  # PUT           -0.079*        0.844*        0.017        -0.073*       -0.032*
+                  # LGH            0.065*        0.094*        0.053         0.308*        0.110*
+                  # ATT            0.030         0.016        -0.036         0.366*        0.088*
+                  # SDE            0.083*        0.683*       -0.009        -0.052*        0.107*
+                  # NSY           -0.082*       -0.022         0.028*       -0.001         0.958*
+                  # FRI            0.060         0.118*        0.065*        0.711*       -0.027
+                # SMS            0.180*       -0.035*        0.021        -0.061*        0.161*
+                 #  BAL           -0.024         0.041        -0.244*        0.111*        0.085*
+                  # MET            0.167*        0.026        -0.032        -0.286*        0.651*
+                   #DRK            0.010        -0.047*       -0.209*        0.317*        0.087*
+                   #SRD            0.047         0.077*        0.502*       -0.064*        0.067*
+                   #DSA            0.602*       -0.052*       -0.107*        0.216*       -0.028
+                 #FRU            0.298*        0.120*       -0.109*        0.303*        0.105*
+                  # STK            0.118*        0.502*       -0.031         0.366*        0.086*
+                  # CLA           -0.009         0.570*        0.016         0.310*        0.085*
+                   #ALN            0.020         0.036        -0.191*        0.261*        0.114*
+                   #SMT            0.059*        0.043*       -0.055*        0.001         0.806*
+                   
+                   
+                   #OBLIMIN ROTATED LOADINGS (* significant at 5% level)
+                                #   6
+                              #  ________
+            #     INS            0.060*
+             #      FIN           -0.245*
+              #     ENJ            0.499*
+               #    SKI           -0.021
+                # CRY            0.442*
+                 #  ANG            0.083*
+                  # CAR            0.057
+            #     SHR           -0.026
+             #    CON           -0.098*
+              #     RGT            0.004
+               #  TME            0.023
+                # RDE            0.142*
+                 #  ANY            0.211*
+                  # IRR            0.082*
+                   #HUG            0.083*
+    #               BLM            0.040
+     #            SAD            0.622*
+      #             SOC           -0.033
+       #          SEA            0.012
+        #         TRV            0.068*
+         #          WOR            0.386*
+          #         PLC           -0.023
+           #      SLM           -0.023
+            #     RCE            0.014
+             #    FOC           -0.139*
+              #     HW             0.116*
+               #    STT            0.168*
+                #   PER           -0.075*
+                 #  FUN            0.079*
+                  # CRT            0.013
+#                 CLS           -0.033
+ #                SHY            0.022
+  #               IEJ           -0.101*
+   #                PUT            0.077*
+    #               LGH           -0.068*
+     #              ATT            0.373*
+      #             SDE           -0.210*
+       #            NSY           -0.005
+        #         FRI           -0.062
+         #        SMS            0.652*
+          #         BAL            0.320*
+           #        MET            0.066*
+            #       DRK            0.251*
+             #      SRD            0.024
+              #   DSA            0.047*
+               #    FRU            0.137*
+                #   STK           -0.116*
+                 #  CLA           -0.146*
+                  # ALN            0.269*
+  #                 SMT            0.062*
+                   
+###I still had things that didn't load, so here we go again!
+###6 factors
+                 
+                 #RMSEA (Root Mean Square Error Of Approximation)
+                 
+                # Estimate                           0.023
+                # 90 Percent C.I.                    0.022  0.024
+                # Probability RMSEA <= .05           1.000
+                 
+                 #CFI/TLI
+                 
+                 #CFI                                0.973
+                 #TLI                                0.963
+                 
+                 #OBLIMIN ROTATED LOADINGS (* significant at 5% level)
+                #                   1             2             3             4             5
+                #                ________      ________      ________      ________      ________
+                 #INS            0.708*        0.034         0.023        -0.086*       -0.053*
+                  # FIN            0.119*        0.710*       -0.004        -0.024         0.051*
+                   #ENJ            0.158*        0.001        -0.060*       -0.142*        0.183*
+                   #SKI            0.010         0.038*        0.716*       -0.123*        0.001
+                 #CRY            0.102*       -0.027        -0.106*        0.195*       -0.013
+                 #ANG            0.637*       -0.022         0.031        -0.070*       -0.029
+                 #CAR           -0.184*        0.119*        0.064*        0.588*        0.009
+                 #SHR           -0.050*        0.102*        0.078*        0.519*       -0.149*
+                  # CON            0.069*        0.514*       -0.012         0.188*        0.004
+                 #RGT           -0.274*        0.497*        0.063*        0.177*        0.022
+                 #TME            0.057         0.048         0.143*        0.609*        0.019
+                 #RDE            0.660*        0.001         0.020        -0.102*       -0.015
+                 #ANY            0.481*        0.052*       -0.046*        0.106*        0.015
+                 #IRR            0.568*       -0.009        -0.090*        0.202*        0.012
+                 #HUG           -0.031         0.061*        0.120*        0.523*       -0.065*
+                #   BLM            0.571*       -0.195*        0.015         0.084*       -0.012
+                # SAD            0.104*       -0.052*       -0.013         0.062*        0.066*
+                #   SOC            0.076*        0.056*       -0.009        -0.223*        0.672*
+                #   SEA            0.000        -0.044*        0.743*        0.144*       -0.016
+                # TRV           -0.028         0.012         0.436*        0.382*       -0.032
+                # PLC            0.611*       -0.098*       -0.001         0.256*        0.020
+                # SLM            0.600*       -0.111*        0.006         0.128*        0.030
+                # RCE            0.113*       -0.075*        0.522*        0.132*       -0.002
+                # FOC           -0.030         0.627*        0.077*       -0.078*        0.033
+                # HW            -0.008         0.807*       -0.030         0.037        -0.028
+                # STT           -0.093*        0.906*        0.010         0.007        -0.056*
+                 #  PER            0.015         0.696*        0.021         0.114*       -0.030
+                 #FUN            0.682*        0.037         0.123*       -0.232*       -0.027
+                 #CRT            0.610*        0.061*        0.072*       -0.206*        0.011
+                 #CLS            0.124*        0.091*        0.111*        0.681*       -0.017
+                 #SHY           -0.088*       -0.034*        0.000         0.146*        0.946*
+                  # IEJ            0.564*       -0.102*       -0.034         0.403*        0.145*
+                  # PUT           -0.076*        0.844*        0.031        -0.079*       -0.030*
+                  # SDE            0.093*        0.667*       -0.004        -0.044         0.105*
+                  # NSY           -0.077*       -0.023*        0.010         0.014         0.950*
+                  # FRI            0.063*        0.115*        0.045         0.705*       -0.008
+                 #SMS            0.118*       -0.001         0.000        -0.040*        0.153*
+                  # MET            0.158*        0.027        -0.016        -0.290*        0.642*
+                   #SRD            0.052*        0.068*        0.507*       -0.055*        0.063*
+                   #DSA            0.575*       -0.055*       -0.096*        0.212*       -0.022
+                # STK            0.117*        0.493*       -0.043         0.373*        0.094*
+                 #  CLA           -0.008         0.563*       -0.004         0.322*        0.089*
+                  # SMT            0.070*        0.041*       -0.027        -0.032         0.811*
+                   
+                   
+                   #OBLIMIN ROTATED LOADINGS (* significant at 5% level)
+                                 #6
+                              #________
+                 #INS            0.083*
+                  # FIN           -0.258*
+                   #ENJ            0.531*
+                   #SKI           -0.048*
+                   #CRY            0.491*
+                   #ANG            0.099*
+                   #CAR            0.025
+                 #SHR           -0.022
+                 #CON           -0.068*
+                  # RGT           -0.007
+                 #TME            0.066
+                 #RDE            0.175*
+                  # ANY            0.282*
+                   #IRR            0.163*
+                   #HUG            0.052
+                # BLM            0.089*
+                 #  SAD            0.720*
+                  # SOC           -0.051*
+                   #SEA            0.000
+                 #TRV            0.060*
+                  # PLC           -0.041
+                 #SLM           -0.007
+                 #RCE            0.012
+                 #FOC           -0.156*
+                  # HW             0.107*
+                   #STT            0.163*
+                   #PER           -0.085*
+                   #FUN            0.029
+                # CRT            0.000
+                # CLS            0.055
+                # SHY            0.047*
+                 #  IEJ           -0.075*
+                  # PUT            0.056*
+                   #SDE           -0.211*
+                   #NSY            0.005
+                 #FRI           -0.067
+                 #SMS            0.693*
+                  # MET            0.085*
+                  # SRD            0.003
+                 #DSA            0.084*
+                  # STK           -0.109*
+                   #CLA           -0.137*
+                   #SMT            0.047*
+                   
+###That's a good solution with simple structure.                   
+                 
+###I want to make a factor diagram. I made an excel 
+###speadsheet of the factor loading matrix. Let's
+###load it. 
+                 
+factor_loading <- read.csv("G:\\My Drive\\ABCD\\Portfolio_3\\final_factor_loading.csv", header = FALSE, stringsAsFactors = FALSE)
+
+###There's a weird symbol in the first box. Let's fix that!
+
+factor_loading[1,1] <- 0.708
+
+###Now let's make it a matrix
+factor_loading_mtrx <- data.matrix(factor_loading, rownames.force = NA)
+          
+                        
+EFA_diagram <- fa.diagram(factor_loading_mtrx, simple= TRUE, col = "blue",
+                          labels= c("ins", "fin", "enj",
+                                    "ski", "cry", "ang", "car", "shr",
+                                    "con", "rgt", "tme", "rde",
+                                    "any", "irr", "hug", "blm",
+                                    "sad", "soc", "sea", "trv", "plc",
+                                    "slm", "rce", "foc", "hw", 
+                                    "stt", "per", "fun", "crt", "cls",
+                                    "shy", "iej", "put", "sde",
+                                    "nsy", "fri", "sms", "met", 
+                                    "srd", "dsa", "stk", "cla", "smt"),
+                          digits = 3, e.size = .05, rsize = .05, cex = .5)
+
+###So, fa.diagram produces an ugly factor diagram. I'm just going to 
+###make myself one in another program. I'll put the factors here, though.
+###Aggression/Fear/Frustration, Attention and Activation/Inhibitory 
+###Control, Surgency, Affiliation, Shyness, and Depressive Mood.
+
+
+###Let's do the EGA now! First
+###we need to eliminate the variables that we eliminated via EFA.
+
+
+EATQ_binary_rev <- subset(EATQ_binary, select = -c(tbl, afr, del, trn, opn, bfr, cty, dis, 
+                                                   imp, hrd, exc, eng,
+                                                   wor, lgh, att, bal,
+                                                   drk, fru, aln, rce))
+
+
+EATQ_EGA <- EGA(EATQ_binary_rev, uni = TRUE, model = c("glasso"), algorithm = 
+                c("walktrap"), plot.EGA = FALSE, verbose = TRUE)
+
+EATQ_plot <- plot(EATQ_EGA, plot.args = list(vsize = 6, alpha = 0.5, edge.alpha = 0.5,  
+                                           color.palette = "rainbow", label.size = 3, legend.position="bottom")) 
+
+###Now let's try to add the factor names to the graph.
+
+EATQ_plot <- plot(EATQ_EGA, plot.args = list(vsize = 11, alpha = 0.5, edge.alpha = 0.7,  
+                                             color.palette = "rainbow", label.size = 5, 
+                                             legend.names = c("Shyness", "Affiliation", 
+                                                              "Attention and Activation/Inhibitory Control",
+                                                              "Aggression/Fear/Frustration", 
+                                                              "Surgency", "Depressive Mood"),  
+                                              legend.position="bottom")) 
+
+###Okay, so we see we have the same 6 factors for EFA and EGA. There are some
+###items that differ (e.g., trv is in Surgency in the factor model,
+###but in Affiliation in the EGA), but otherwise they're basically the same.
+###This lends credence to the fact that the EATQ-R Parent's Questionnaire
+###has 6 factors, though there are 10 subscales.
+
+###...and now I have to go turn this into a poster.
